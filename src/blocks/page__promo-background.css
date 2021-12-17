@@ -1,0 +1,6 @@
+.page__promo-background {
+    background-image: url('/src/img/promo.jpg');
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+}

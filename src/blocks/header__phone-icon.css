@@ -1,0 +1,18 @@
+.header__phone-icon {
+    position: relative;
+    top: 2px;
+}
+
+.header__phone-icon::before {
+    content: "";
+    background-image: url('/src/img/header__phone-icon.svg');
+    background-size: cover;
+    height: 1.25em;
+    width: 1.75em;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    top: 9px;
+    left: 10px;
+    transform: scale(1.5);
+}

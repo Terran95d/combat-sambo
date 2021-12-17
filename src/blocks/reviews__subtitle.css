@@ -1,0 +1,6 @@
+.reviews__subtitle {
+    font-size: 0.875em;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: var(--font-subtitle);
+}

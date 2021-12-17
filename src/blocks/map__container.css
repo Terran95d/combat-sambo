@@ -1,0 +1,5 @@
+@media(min-width: 769px) {
+    .map__container {
+        height: 0;
+    }
+}

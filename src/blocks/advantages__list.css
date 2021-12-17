@@ -1,0 +1,14 @@
+.advantages__list {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    box-sizing: border-box;
+    padding: 0;
+    padding-top: 2em;
+}
+
+@media(max-width:768px) {
+    .advantages__list {
+        flex-direction: column;
+    }
+}

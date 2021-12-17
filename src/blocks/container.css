@@ -1,0 +1,16 @@
+@media (max-width: 768px) {
+    .container {
+        box-sizing: border-box;
+        width: 100%;
+        margin: 0 auto;
+        padding: 1em;
+    }
+}
+@media (min-width: 769px){
+    .container {
+        box-sizing: border-box;
+        max-width: calc(1180px - 2em );
+        padding: 1em;
+        margin: 0 auto;
+    }
+}

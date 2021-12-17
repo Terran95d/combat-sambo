@@ -1,0 +1,19 @@
+.form__input {
+    display: block;
+    width: 70%;
+    color: #ffffff;
+    padding: 1em;
+    height: 2em;
+    margin: 0 auto;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    border-radius: 3%;
+    background-color: #000000;
+    text-decoration: none;
+    outline: none;
+}
+
+.form__input:focus {
+    border-bottom: 1px solid #c90404f3;
+    transition: all 0.3s ease 0s;
+}

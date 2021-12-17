@@ -1,0 +1,101 @@
+/* --HTML и вспомогательные элементы-- */
+@import url('/src/blocks/html.css');
+@import url('/src/blocks/container.css');
+@import url('/src/blocks/hidden.css');
+
+/* --PAGE-- */
+@import url('/src/blocks/page--background--color.css');
+@import url('/src/blocks/page__header--fixed.css');
+@import url('/src/blocks/page--lock.css');
+@import url('/src/blocks/page__main.css');
+@import url('/src/blocks/page__promo-background.css');
+@import url('/src/blocks/page__promo-background--net.css');
+@import url('/src/blocks/page__promo-background--dark.css');
+
+/* --HEADER-- */
+@import url('/src/blocks/header__logo.css');
+@import url('/src/blocks/header__img.css');
+@import url('/src/blocks/header__content.css');
+@import url('/src/blocks/header__menu.css');
+@import url('/src/blocks/header__list.css');
+@import url('/src/blocks/header__item.css');
+@import url('/src/blocks/header__link.css');
+@import url('/src/blocks/header__burger.css');
+@import url('/src/blocks/header__burger-span.css');
+@import url('/src/blocks/header__burger--active.css');
+@import url('/src/blocks/header__phone-icon.css');
+
+/* --PROMO-- */
+@import url('/src/blocks/promo__title.css');
+@import url('/src/blocks/promo__subtitle.css');
+@import url('/src/blocks/promo__text.css');
+@import url('/src/blocks/promo__button.css');
+@import url('/src/blocks/promo__text-action.css');
+
+/* --ABOUT-- */
+@import url('/src/blocks/about__title.css');
+@import url('/src/blocks/about__text.css');
+@import url('/src/blocks/about__wrapper.css');
+@import url('/src/blocks/about__img.css');
+@import url('/src/blocks/about__text-wrapper.css');
+
+/* --ACTION-- */
+@import url('/src/blocks/action__title.css');
+@import url('/src/blocks/action__text.css');
+@import url('/src/blocks/action__gallery.css');
+@import url('/src/blocks/action__img.css');
+@import url('/src/blocks/action__img-wrapper.css');
+
+/* --ADVANTAGES-- */
+@import url('/src/blocks/advantages__list.css');
+@import url('/src/blocks/advantages__img.css');
+@import url('/src/blocks/advantages__item.css');
+@import url('/src/blocks/advantages__title.css');
+@import url('/src/blocks/advantages__text.css');
+
+/* --TARGET-- */
+@import url('/src/blocks/target__title.css');
+@import url('/src/blocks/target__text.css');
+@import url('/src/blocks/target__video.css');
+
+/* --COACH-- */
+@import url('/src/blocks/coach__title.css');
+@import url('/src/blocks/coach__wrapper.css');
+@import url('/src/blocks/coach__name.css');
+@import url('/src/blocks/coach__text.css');
+@import url('/src/blocks/coach__text-wrapper.css');
+@import url('/src/blocks/coach__img.css');
+
+/* --REVIEWS-- */
+@import url('/src/blocks/reviews__title.css');
+@import url('/src/blocks/reviews__subtitle.css');
+@import url('/src/blocks/reviews__wrapper.css');
+@import url('/src/blocks/reviews__img.css');
+@import url('/src/blocks/reviews__name.css');
+@import url('/src/blocks/reviews__figcaption.css');
+@import url('/src/blocks/reviews__text.css');
+@import url('/src/blocks/reviews__item.css');
+
+/* --RECORDING-FORM-- */
+@import url("/src/blocks/recording-form__title.css");
+@import url("/src/blocks/recording-form__form.css");
+@import url("/src/blocks/form__input.css");
+@import url("/src/blocks/form__wrapper.css");
+@import url("/src/blocks/form__button.css");
+@import url("/src/blocks/form__text.css");
+@import url("/src/blocks/form__link.css");
+
+/* --MAP-- */
+@import url("/src/blocks/map__frame.css");
+@import url('/src/blocks/map__title.css');
+@import url('/src/blocks/map__address.css');
+@import url('/src/blocks/map__container.css');
+@import url('/src/blocks/map__about.css');
+
+/* --FOOTER-- */
+@import url('/src/blocks/footer__phone.css');
+@import url('/src/blocks/footer__logo.css');
+@import url('/src/blocks/social-list.css');
+@import url('/src/blocks/social-list__item.css');
+@import url('/src/blocks/social-list__img.css');
+@import url('/src/blocks/footer__img.css');

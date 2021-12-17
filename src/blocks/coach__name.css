@@ -1,0 +1,11 @@
+.coach__name {
+    font-size: 1rem;
+    font-weight: var(--font-text);
+    text-align: center;
+}
+
+@media(max-width: 768px) {
+    .coach__name {
+        font-size: 0.875rem;
+    }
+}

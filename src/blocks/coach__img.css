@@ -1,0 +1,12 @@
+.coach__img {
+    display: block;
+    max-width: 100%;
+    outline: 0;
+    box-shadow: 0 0 5px 0 #c90404f3 inset, 0 0 5px 3px #c90404f3;
+}
+
+@media(max-width: 768px) {
+    .coach__img {
+        width: 100%;
+    }
+}

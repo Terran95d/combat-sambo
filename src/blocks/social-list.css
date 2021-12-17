@@ -1,0 +1,14 @@
+.social-list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+@media(max-width: 768px) {
+    .social-list {
+        flex-direction: column;
+        justify-items: center;
+        text-align: center;
+    }
+}

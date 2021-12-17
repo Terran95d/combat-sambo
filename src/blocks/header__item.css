@@ -1,0 +1,16 @@
+.header__item {
+    margin: 0 0 0 1.25em;
+    padding: 0.625em;
+}
+
+.header__item:hover {
+    color: #ffffff;
+    outline: 0;
+    box-shadow: 0 0 10px 0 #c90404f3 inset, 0 0 10px 4px #c90404f3;
+}
+
+@media (max-width: 768px) {
+    .header__item {
+       margin: 0px 0px 1.25em 0px;
+    }
+}

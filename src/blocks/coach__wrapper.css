@@ -1,0 +1,12 @@
+.coach__wrapper {
+   display: flex;
+   flex-direction: row-reverse;
+   justify-content: space-between;
+   padding-top: 2em;     
+}
+
+@media(max-width: 768px) {
+    .coach__wrapper {
+        flex-direction: column-reverse;
+    }
+}

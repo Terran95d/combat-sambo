@@ -1,0 +1,6 @@
+.promo__subtitle {
+    font-size: 1.56em;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: var(--font-subtitle);
+}

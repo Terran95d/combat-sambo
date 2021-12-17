@@ -1,0 +1,15 @@
+.header__list {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style-type: none;
+    align-items: center;
+    position: relative;
+    z-index: 3;
+}
+
+@media (max-width: 768px) {
+    .header__list {
+        display: block;
+    }
+}

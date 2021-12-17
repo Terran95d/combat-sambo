@@ -1,0 +1,12 @@
+.header__logo {
+    max-width: 100%;
+    z-index: 3;
+}
+
+@media (max-width: 768px) {
+    .header__logo {
+        position: relative;
+        top: 50%;
+        left: 40%;
+    }
+}

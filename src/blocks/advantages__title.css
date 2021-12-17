@@ -1,0 +1,12 @@
+.advantages__title {
+    font-size: 1.125rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: var(--font-title);
+}
+
+@media(max-width: 768px) {
+    .advantages__title {
+        font-size: 1rem;
+    }
+}

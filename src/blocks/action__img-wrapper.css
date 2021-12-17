@@ -1,0 +1,5 @@
+@media(max-width: 768px) {
+    .action__img-wrapper{
+        padding-bottom: 1em;
+    }
+}

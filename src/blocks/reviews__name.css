@@ -1,0 +1,7 @@
+.reviews__name {
+    margin: 0;
+    padding: 0;
+    font-size: 1.25rem;
+    font-weight: var(--font-subtitle);
+    text-align: center;
+}

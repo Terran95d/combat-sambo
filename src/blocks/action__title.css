@@ -1,0 +1,12 @@
+.action__title {
+    font-size: 1.25rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: var(--font-title);
+}
+
+@media(max-width: 768px) {
+    .action__title {
+        font-size: 1rem;
+    }
+}

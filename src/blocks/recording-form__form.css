@@ -1,0 +1,12 @@
+.recording-form__form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+@media(max-width: 768px) {
+    .recording-form__form {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,12 @@
+.action__gallery {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1em;
+}
+
+@media (max-width: 768px) {
+    .action__gallery {
+        flex-direction: column;
+        padding-top: 0;
+    }
+}

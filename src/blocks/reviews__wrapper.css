@@ -1,0 +1,12 @@
+.reviews__wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    padding-top: 2em;
+}
+
+@media(max-width: 768px) {
+    .reviews__wrapper {
+        flex-direction: column;
+    }
+}

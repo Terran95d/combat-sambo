@@ -1,0 +1,26 @@
+.form__button {
+    display: block;
+    margin: 0 auto;
+    padding: 15px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    border: 2px;
+    border-radius: 5%;
+    background-color: hsla(0, 96%, 40%, 0.953);
+    color: #ffffff;
+    opacity: 0.9;
+}
+
+.form__button:hover {
+    color: #ffffff;
+    background-color: inherit;
+    outline: 0;
+    box-shadow: 0 0 10px 0 #c90404f3 inset, 0 0 10px 4px #c90404f3;
+    cursor: pointer;
+}
+
+.form__button:active {
+    background-color: #c90404f3;
+    box-shadow: 0 0 10px 0 #c90404f3 inset, 0 0 10px 4px #c90404f3;
+    transform: translateY(4px);
+}

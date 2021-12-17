@@ -1,0 +1,12 @@
+.footer__phone {
+    display: none;
+}
+
+@media(max-width: 768px) {
+    .footer__phone {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 2em;
+    }
+}

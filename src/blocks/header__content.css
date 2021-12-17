@@ -1,0 +1,13 @@
+.header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 5em;
+    position: relative;
+}
+
+@media (max-width: 768px) {
+    .header__content {
+        max-height: 3.125em;
+    }
+}

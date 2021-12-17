@@ -1,0 +1,5 @@
+.header__link {
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    font-weight: var(--font-subtitle);
+}

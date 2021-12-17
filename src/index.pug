@@ -1,0 +1,182 @@
+doctype html
+html(lang="ru" class="html")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width")
+        link(rel="stylesheet" href="styles.css")
+        link(rel="preconnect" href="https://fonts.googleapis.com") 
+        link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+        link(href="https://fonts.googleapis.com/css2?family=Murecho:wght@200;400;600&display=swap" rel="stylesheet")
+        title Школа Combat Sambo
+    body(class="page page--background--color")
+        header(class="header page__header--fixed")
+            .container
+                .header__content
+                    .header__logo
+                        img(class="header__img" src="/src/img/logo__img.svg" alt="Logo")
+                    .header__burger
+                        span(class="header__burger-span")
+                    nav(class="header__menu")
+                        ul(class="header__list")
+                            li(class="header__item")
+                                a(class="header__link") О школе
+                            li(class="header__item")
+                                a(class="header__link") Тренер
+                            li(class="header__item")
+                                a(class="header__link") Контакты
+                            li(class="header__item")
+                                a(class="header__link header__phone-icon") +7 777 77 77
+        main(class="page__main")
+            h1(class="hidden") Школа Боевого Самбо
+            section(class="promo page__promo-background")
+                .page__promo-background--net
+                    .page__promo-background--dark
+                        .container
+                            h2(class="promo__title") школа боевого самбо
+                            p(class="promo__subtitle") Combat Sambo
+                            .promo__line
+                            p(class="promo__text") 
+                                | Профессиональное обучение боевому самбо для всех желающих.
+                                | Запишитесь прямо сейчас - и обучайтесь у лучшего треннера!
+                            button(class="button promo__button") Записаться сейчас
+                            p(class="promo__text-action") Запишись на пробную тренировку
+            section(class="about")
+                .container
+                    .about__wrapper.page__promo-background--dark
+                        img(class="about__img" src="/src/img/promo.jpg", alt="School Photo" width="40%" height="100%")
+                        .about__text-wrapper
+                            h2(class="about__title") Что такое Боевое Самбо ?
+                            p(class="about__text") Боевое самбо – это стиль самообороны, разработанный в Советском Союзе в начале 20 века. Он не имеет такой длинной истории как некоторые азиатские стили, тем не менее, самбо имеет корни в нескольких видах боевых искусств, опираясь на более старые стили.
+                            p(class="about__text") Самбо предназначалось для объединения всех различных стилей боевых искусств, чтобы придумать самый эффективный из всех возможных. Россия имело выгодное расположение между Европой и Азией и люди могли изучить стили боевых искусств и Японии, Монголии и т.д. Сочетание этих стилей послужило основой для того, что сейчас называют боевым самбо.
+            section(class="action")
+                .container
+                    h2(class="action__title") Действуй
+                    p(class="action__text") Запишись на пробную тренировку и испытай свои возможности
+                    .action__gallery
+                        .action__img-wrapper.page__promo-background--dark
+                            img(class="action__img" src="/src/img/promo.jpg", alt="Photo" width="90%" height="100%")
+                        .action__img-wrapper.page__promo-background--dark
+                            img(class="action__img" src="/src/img/promo.jpg", alt="Photo" width="90%" height="100%")
+                        .action__img-wrapper.page__promo-background--dark
+                            img(class="action__img" src="/src/img/promo.jpg", alt="Photo" width="90%" height="100%")
+            section(class="advantages")
+                .container
+                    h2(class="hidden") Преимущества
+                    p(class="about__title") Тебе к нам, если
+                    p(class="advantages__text") Ты хочешь узнать, какими возможностями и ресурсами ты обладаешь
+                    ul(class="advantages__list")
+                        li(class="advantages__item")
+                            img(class="advantages__img" src="/src/img/advantages-endurance.png" alt="Icon" width="150" height="150")
+                            h3(class="advantages__title") Выносливость
+                            p(class="advantages__text") Проверите уровень Вашей выносливости
+                        li(class="advantages__item")
+                            img(class="advantages__img" src="/src/img/advantages__health.png" alt="Icon" width="150" height="150")
+                            h3(class="advantages__title") Здоровье
+                            p(class="advantages__text") Будете держать тело в тонусе
+                        li(class="advantages__item")
+                            img(class="advantages__img" src="/src/img/advantages__power.png" alt="Icon" width="150" height="150")
+                            h3(class="advantages__title") Сила
+                            p(class="advantages__text") Узнаете предел своих мыщц
+            section(class="target")
+                .container
+                    h2(class="target__title") Наша цель
+                    p(class="target__text") Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias minus qui iste vitae cupiditate ea. Unde quos iste doloribus ipsam consectetur aut dolorum, adipisci quas animi iusto iure, ratione sed. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde in corporis saepe quisquam vel nemo reiciendis nobis asperiores consectetur cumque delectus nesciunt excepturi iusto quam rerum autem dolore, sit modi?
+                    video(class="target__video" controls poster="#")
+                        source(src="#" type="video/mp4")
+                        source(src="#" type="video/ogg")
+                        source(src="#" type="video/webm")
+            section(class="features")
+                .container
+                    h2(hidden) Особенности Школы Боевого Самбо
+                    ul(class="advantages__list")
+                        li(class="advantages__item")
+                            img(class="advantages__img" src="/src/img/advantages-endurance.png" alt="Icon" width="150" height="150")
+                            h3(class="advantages__title") Выносливость
+                            p(class="advantages__text") Проверите уровень Вашей выносливости
+                        li(class="advantages__item")
+                            img(class="advantages__img" src="/src/img/advantages__health.png" alt="Icon" width="150" height="150")
+                            h3(class="advantages__title") Здоровье
+                            p(class="advantages__text") Будете держать тело в тонусе
+                        li(class="advantages__item")
+                            img(class="advantages__img" src="/src/img/advantages__power.png" alt="Icon" width="150" height="150")
+                            h3(class="advantages__title") Сила
+                            p(class="advantages__text") Узнаете предел своих мыщц
+                        li(class="advantages__item")
+                            img(class="advantages__img" src="/src/img/advantages__power.png" alt="Icon" width="150" height="150")
+                            h3(class="advantages__title") Сила
+                            p(class="advantages__text") Узнаете предел своих мыщц
+            section(class="coach")
+                .container
+                    h2(class="coach__title") Наш Тренер
+                    .coach__wrapper
+                        .coach__text-wrapper 
+                            p(class="coach__name") DSDA SDAD SADA
+                            p(class="coach__text") Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur nam laboriosam mollitia facere cupiditate nemo esse rerum magnam repudiandae, fugit, laborum praesentium quaerat. Nesciunt libero, sed asperiores minima blanditiis voluptatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem illum aperiam odit quisquam minima, atque expedita voluptatibus, harum assumenda eligendi, voluptatum explicabo nam. Voluptatum totam sed quo accusantium iusto ipsum.
+                        img(class="coach__img" src="/src/img/promo.jpg" alt="Coach photo" width="40%" height="100%")
+            section(class="reviews")
+                .container
+                    h2(class="reviews__title") Отзывы учеников
+                    p(class="reviews__subtitle") Превзойди себя и начни действовать
+                    .reviews__wrapper
+                        figure(class="reviews__item")
+                            img(class="reviews__img" src="/src/img/promo.jpg", alt="Pupil Photo")
+                            figcaption(class="reviews__figcaption")
+                                cite(class="reviews__name") Константин Николаев
+                            blockquote(class="reviews__text") Прошел пошаговый курс до результата за 3 месяца. Моим тренером был мастер своего дела, который помог преодолеть это путь с лёгкостью и уверенностью в свой успех. Нужную информацию предоставляли вовремя, всегда получал необходимую консультацию, и все ответы на интересующие меня вопросы.
+                        figure(class="reviews__item")
+                            img(class="reviews__img" src="/src/img/promo.jpg", alt="Pupil Photo")
+                            figcaption(class="reviews__figcaption")
+                                cite(class="reviews__name") Сергей Васильев
+                            blockquote(class="reviews__text") Проходили обучение у профессионалов своего дела. За совсем маленький срок усвоили всё. Я был удивлен, что применяется индивидуальный подход к каждому ученику. Было приятно и интересно проходить курсы. Надеюсь в скором времени приеду вновь для прохождения новой ступени. Спасибо всем тренерам!
+                        figure(class="reviews__item")
+                            img(class="reviews__img" src="/src/img/promo.jpg", alt="Pupil Photo")
+                            figcaption(class="reviews__figcaption")
+                                cite(class="reviews__name") Максим Иванов
+                            blockquote(class="reviews__text") Прошел пошаговый курс до результата за 3 месяца. Моим тренером был мастер своего дела, который помог преодолеть это путь с лёгкостью и уверенностью в свой успех. Нужную информацию предоставляли вовремя, всегда получал необходимую консультацию, и все ответы на интересующие меня вопросы.
+            section(class="recording-form")
+                .container
+                    h2(class="recording-form__title") Запишитесь на пробную тренировку
+                    form(class="form recording-form__form")
+                        .form__wrapper
+                            label(class="form__label hidden" for="firstname")
+                            input(class="form__input" type="text", name="firstname" placeholder="Введите Имя")
+                        .form__wrapper
+                            label(class="form__label hidden" for="email")
+                            input(class="form__input" type="email", name="email" placeholder="Введите email")
+                        .form__wrapper
+                            label(class="form__label hidden" for="phone")
+                            input(class="form__input" type="tel", name="phone" placeholder="+7 XXX XX XX")
+                        .form__wrapper
+                            button(class="form__button" type="submit") Записаться сейчас
+                        p(class="form__text") Нажимая на кнопку, Вы принимаете <a class="form__link" href="#">Положение</a> и <a class="form__link" href="#">Согласие</a> на обработку персональных данных.
+            section(class="map")
+                iframe(class="map__frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2901.5743173438773!2d76.98701513291682!3d43.34409598767816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x38c839c87f0530c7!2zNDPCsDIwJzM4LjgiTiA3NsKwNTknMTkuMyJF!5e0!3m2!1sru!2skz!4v1639311233240!5m2!1sru!2skz" width="90%" height="400" style="border:0;" allowfullscreen="" loading="lazy")
+                .container.map__container
+                    .map__about
+                        h2(class="map__title") Мы на карте
+                        p(class="map__text") Школа Боевого Самбо. </br> Профессиональное обучение для всех желающих.
+                        address(class="map__address") +7 777 77 77 Алтай-1
+            section(class="footer")
+                .container
+                    .footer__logo
+                        img(class="footer__img" src="/src/img/logo__img.svg" alt="Logo")
+                    .footer__phone
+                        a(class="header__link header__phone-icon") +7 777 77 77
+                    .footer__social
+                        ul(class="social-list")
+                            li(class="social-list__item")
+                                a(class="social-list__link")
+                                    img(class="social-list__img" src="/src/img/telegramm-icon.svg", alt="Telegramm")
+                                p(class="social-list__text") Мы в Telegram
+                            li(class="social-list__item")
+                                a(class="social-list__link")
+                                    img(class="social-list__img" src="/src/img/instagramm-icon.svg", alt="Instagramm")
+                                p(class="social-list__text") Мы в Isntagramm
+                            li(class="social-list__item")
+                                a(class="social-list__link")
+                                    img(class="social-list__img" src="/src/img/whatsapp-icon.svg", alt="WhatsApp")
+                                p(class="social-list__text") Мы в WhatsApp
+        script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js")
+        script(src="/src/blocks/header__burger.js")
+

@@ -1,0 +1,19 @@
+.reviews__text {
+    font-size: 1rem;
+    text-align: left;
+    font-weight: var(--font-text);
+    margin: 0;
+    border-top: 2px solid #ffffff;
+    padding-top: 2em;
+}
+
+.reviews__text:hover {
+     border-top: 2px solid #c90404f3;
+     transition: all 0.3s ease 0s;
+}
+
+@media(max-width: 768px) {
+    .reviews__text {
+        font-size: 0.875rem;
+    }
+}

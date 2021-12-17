@@ -1,0 +1,11 @@
+.action__text {
+    font-size: 1rem;
+    font-weight: var(--font-text);
+    text-align: center;
+}
+
+@media(max-width: 768px) {
+    .action__text {
+        font-size: 0.875rem;
+    }
+}

@@ -1,0 +1,10 @@
+.about__text {
+    font-size: 1rem;
+    font-weight: var(--font-text);
+}
+
+@media(max-width: 768px) {
+    .about__text {
+        font-size: 0.875rem;
+    }
+}
